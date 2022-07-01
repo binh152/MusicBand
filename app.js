@@ -32,8 +32,8 @@ function bg() {
         1: "https://p-u.popcdn.net/collections/covers/000/000/044/cover/music_cover.jpg?1602147553",
         2: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_537,q_50,w_1084/v1/clients/omaha/Weekend_bbcda3db-c289-49ab-b43c-37bec47cbcd2.jpg",
         3: "https://data.junkee.com/wp-content/uploads/2019/05/The-Cure_Sydney-Opera-House_credit_Daniel-Boud_036-680x453.jpg",
-        4: "https://data.junkee.com/wp-content/uploads/2019/05/The-Cure_Sydney-Opera-House_credit_Daniel-Boud_036-680x453.jpg",
-        5: "https://data.junkee.com/wp-content/uploads/2019/05/The-Cure_Sydney-Opera-House_credit_Daniel-Boud_036-680x453.jpg",
+        4: "https://www.uncovercolorado.com/wp-content/uploads/2019/12/OneRepublic-Top-1600x800-1-1600x800.jpg",
+        5: "https://data.junkee.com/wp-content/uploads/2019/05/The-Cure_Sydney-Opera-House_credit_Daniel-Boud_036-680x453.jpghttps://upload.wikimedia.org/wikipedia/commons/9/9d/HIM_-_Helsinki_Ice_Hall_2017_%282%29.jpg",
     };
     var randomCount = Math.floor(Math.random() * imgCount);
     
