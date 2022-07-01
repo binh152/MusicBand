@@ -39,10 +39,11 @@
             </div>
         </div>
         <div id="slider">
-            
-            <div class="text-content">
-                <h2 class="text-head">Chicago</h2>
-                <p class="text-body">Thank you, Chicago - A night we won't forget</p>
+            <div class="silder__img">
+                <div class="text-content">
+                    <h2 class="text-head">Chicago</h2>
+                    <p class="text-body">Thank you, Chicago - A night we won't forget</p>
+                </div>            
             </div>
         </div>
         <div id="content">
@@ -162,33 +163,6 @@
             <p class="copyright">Powered by <a href="">w3.css</a></p>
         </div>
     </div>
-    <script>
-        var header =document.getElementById('header');
-        var mobileMenu =document.getElementById('mobile-menu');
-        mobileMenu.onclick=function(){
-            var isClose =header.clientHeight === 46;
-            if(isClose){
-                header.style.height='auto'
-            }else{
-                header.style.height=null
-            }
-        }
-        // tu dong dong khi chon menu
-        var menuItems= document.querySelectorAll('#nav li a[href*="#"]')
-       for(var i=0; i<menuItems.length; i++){
-           var MEnu =menuItems[i]
-
-           MEnu.onclick=function(event){
-            var isparentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav')
-            if(isparentMenu){
-                event.preventDefault();
-            }else{
-                header.style.height=null
-
-            }
-        }
-       }
-
-    </script>
+   <script src="./app.js"></script>
 </body>
 </html>

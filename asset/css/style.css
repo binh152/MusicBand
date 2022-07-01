@@ -152,7 +152,8 @@ html{
     position: relative;
     margin-top: 46.4px;
     padding-top: 50%;
-    background: url("https://www.w3schools.com/w3images/chicago.jpg") top center / cover no-repeat ;
+    background: url() top center / cover no-repeat ;
+    
 }
 
 .text-content{
